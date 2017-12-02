@@ -18,5 +18,11 @@
   "homepage": "https://github.com/nitin-jotwani/quantinsti-works#readme",
   "dependencies": {
     "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-sass": "^3.1.0"
   }
 }
