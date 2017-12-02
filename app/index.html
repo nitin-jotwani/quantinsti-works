@@ -3,8 +3,129 @@
   <head>
     <meta charset="utf-8">
     <title>Assignment Aagya</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    hello dude
+    <div class="my-style container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" id="my-nav-toggle-btn" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="my-nav-toggle">
+            <span></span>
+            </span>
+            </button>
+            <a class="navbar-brand" href="#">
+            <img src="img/brand.png" class="top-img" alt="">
+            </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse my-nav-links" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <a title="test" href="#">START</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCT <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li>
+                <a title="test" href="#">REFERENCE</a>
+              </li>
+              <li>
+                <a title="test" href="#">NEWS</a>
+              </li>
+              <li>
+                <a title="test" href="#">BLOG</a>
+              </li>
+              <li>
+                <a title="test" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container-fluid my-style">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="http://via.placeholder.com/1000x600" alt="Chania">
+            <div class="carousel-caption">
+              <h3>BEST DESIGNER</h3>
+              <p>GUDDU </p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://via.placeholder.com/1000x600" alt="Chania">
+            <div class="carousel-caption">
+              <h3>BEST DEVELOPER</h3>
+              <p>GUDDU</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://via.placeholder.com/1000x600" alt="Flower">
+            <div class="carousel-caption">
+              <h3>BEST COOL DUDE</h3>
+              <p>GUDDU</p>
+            </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      </div>
+    </div>
+    <div class="container my-style">
+      <div class="row">
+        <div class="col-md-12 guddu-content">
+          <h1 class="guddu-heading">Qualities of Guddu</h1>
+          <p class="guddu-quality">Guddu is awesome man, does dieting, does designing, he is super cool!</p>
+        </div>
+      </div>
+      <div class="row guddu-details">
+        <div class="col-md-3 col-xs-12 guddu-product">
+          <img src="http://via.placeholder.com/200x200" alt="Flower">
+          <h1 class="guddu-heading">Product 1</h1>
+          <p class="guddu-quality">Product 1 is once was a good product that i cant even describe how it was. Sorry, I didn't had content so wrote this.</p>
+        </div>
+        <div class="col-md-3 guddu-product">
+          <img src="http://via.placeholder.com/200x200" alt="Flower">
+          <h1 class="guddu-heading">Product 2</h1>
+          <p class="guddu-quality">Product 1 is once was a good product that i cant even describe how it was. Sorry, I didn't had content so wrote this.</p>
+        </div>
+        <div class="col-md-3 guddu-product">
+          <img src="http://via.placeholder.com/200x200" alt="Flower">
+          <h1 class="guddu-heading">Product 3</h1>
+          <p class="guddu-quality">Product 1 is once was a good product that i cant even describe how it was. Sorry, I didn't had content so wrote this.</p>
+        </div>
+        <div class="col-md-3 guddu-product">
+          <img src="http://via.placeholder.com/200x200" alt="Flower">
+          <h1 class="guddu-heading">Product 4</h1>
+          <p class="guddu-quality">Product 1 is once was a good product that i cant even describe how it was. Sorry, I didn't had content so wrote this.</p>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#my-nav-toggle-btn').click(function () {
+          $(this).find('.my-nav-toggle').toggleClass('active')
+        })
+      })
+    </script>
   </body>
 </html>
