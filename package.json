@@ -1,0 +1,22 @@
+{
+  "name": "quantinsti-works",
+  "version": "1.0.0",
+  "description": "Assignment One",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitin-jotwani/quantinsti-works.git"
+  },
+  "author": "Nitin Jotwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitin-jotwani/quantinsti-works/issues"
+  },
+  "homepage": "https://github.com/nitin-jotwani/quantinsti-works#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
